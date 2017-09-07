@@ -1,0 +1,5 @@
+{
+  "name":"promise",
+  "main":"promise.js",
+  "description":"一些公用的请求"
+}

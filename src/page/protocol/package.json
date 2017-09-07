@@ -1,0 +1,5 @@
+{
+  "name":"protocol",
+  "main":"protocol.js",
+  "description":"用户协议"
+}

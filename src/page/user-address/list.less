@@ -1,0 +1,118 @@
+body{
+  background-color: #ededed;
+}
+.address-empty{
+  position: fixed;
+  width:100%;
+  height:100%;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  padding: 0;
+  margin:0;
+  background-color: #fff;
+}
+.address-empty img{
+  width:366/@base;
+  height:459/@base;
+  display: block;
+  margin:110/@base auto 40/@base;
+}
+.address-empty p{
+  font-size: 35/@base;
+  color:#9a9a9a;
+  line-height: 70/@base;
+  text-align: center;
+}
+.address-empty a{
+  display: block;
+  width:475/@base;
+  line-height:120/@base;
+  text-align: center;
+  background-color: #76b357;
+  font-size:35/@base;
+  color:#fff;
+  border-radius: 4px;
+  margin:50/@base auto 0;
+}
+
+.address-list-btns{
+  width:100%;
+  padding:0;
+  background-color:#fff;
+  padding: 1px 0;
+  margin-top:20/@base;
+  position:fixed;
+  z-index:1;
+  bottom:0;
+}
+.address-list-btns-place{
+  height:240/@base;
+}
+.address-list-btns a{
+  display: block;
+  margin:20/@base;
+  border-radius:5px;
+  line-height: 90/@base;
+  text-align: center;
+  font-size:26/@base;
+  background-color:#fff;
+  color:#7e7e7e;
+  border:1px solid #75b557;
+}
+.address-list-btns a:first-child{
+  color:#000;
+  background-color:#75b557;
+  box-shadow: 0 2px 2px rgba(0,0,0,.2);
+  border:1px solid #75b557;
+}
+.address-item{
+  background-color:#fff;
+  border-bottom:1px solid #ebefee;
+  padding:40/@base;
+  position:relative;
+}
+.address-item-info{
+  font-size:30/@base;
+  line-height:50/@base;
+  color:#8bb575;
+  margin-bottom:15/@base;
+}
+.address-item-info span{
+  margin-right:45/@base;
+}
+.address-item-location{
+  font-size:25/@base;
+  line-height: 35/@base;
+  color:#717574;
+}
+.address-item-del,.address-item-edit{
+  display: block;
+  width:60/@base;
+  height:60/@base;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  position:absolute;
+  top:30/@base;
+}
+.address-item-del{
+  background-image:url(./address-del.jpg);
+  right:100/@base;
+}
+.address-item-edit{
+  background-image:url(./address-edit.jpg);
+  right:10/@base;
+}
+.address-manage{
+  line-height: 60/@base;
+  font-size:25/@base;
+  text-align:center;
+  background-color:#75b557;
+  color:#000;
+  border-radius:4px;
+  display: block;
+  margin:20/@base auto 0;
+  width:300/@base;
+}

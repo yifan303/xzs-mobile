@@ -1,0 +1,5 @@
+{
+  "name":"login",
+  "main":"login.js",
+  "description":"短信登录"
+}

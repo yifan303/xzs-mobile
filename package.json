@@ -1,0 +1,46 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "description": "鲜在时m站",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline --config ./webpack/dev.config.js --port 9018 ",
+    "qa": "rm -rf ./dist&&./node_modules/webpack/bin/webpack.js --progress --config ./webpack/qa.config.js",
+    "prod": "rm -rf ./dist&&./node_modules/webpack/bin/webpack.js --progress --config ./webpack/prod.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blueimp-md5": "^2.7.0",
+    "dwd-modal": "^1.0.2",
+    "dwd-rem": "^1.0.2",
+    "dwd-slide": "^1.0.12",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "reqwest": "^2.0.5",
+    "underscore": "^1.8.3",
+    "xzs-hybird": "2.0.0",
+    "xzs-message": "^1.0.0",
+    "xzs-token": "^1.0.0",
+    "xzs-util": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.24.1",
+    "json-loader": "^0.5.4",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "postcss-modules-values": "^1.2.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0"
+  }
+}

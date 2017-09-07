@@ -1,0 +1,316 @@
+@height:115/@base;
+@margin-left:45/@base;
+@address-height:200/@base;
+
+body{
+  background-color: #eeeeee;
+  padding-top: 1px;
+}
+
+/* 地址 */
+.account-address{
+  height:@address-height;
+  background-image: url(./address.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:10/@base 0;
+  position:relative;
+}
+.account-edit{
+  height:@address-height;
+  line-height: @address-height;
+  position:relative;
+  a{
+    position:absolute;
+    width: 48/@base;
+    height: 48/@base;
+    background-image:url(./edit.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left:@margin-left;
+    top:0;
+    bottom:0;
+    padding:0;
+    margin: auto 0;
+  }
+  span{
+    margin-left:100/@base;
+    font-size:30/@base;
+    color:#ff4401;
+  }
+}
+.account-arrow{
+  background-image:url(./arrow.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:absolute;
+  width:27/@base;
+  height:52/@base;
+  top:0;
+  bottom:0;
+  padding: 0;
+  margin: auto 0;
+  right:40/@base;
+}
+.account-show-address{
+  padding:30/@base 0;
+  p{
+    font-size:25/@base;
+    margin:20/@base 0;
+    color:#000;
+    padding-left: @margin-left;
+    line-height: 40/@base;
+    width:630/@base;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  span{
+    margin-right:80/@base;
+  }
+}
+/* 底部结算 */
+.account-bottom-place{
+  height:@height;
+}
+.account-bottom{
+  position:fixed;
+  left:0;
+  width:100%;
+  height:@height;
+  line-height: @height;
+  background-color:#000;
+  bottom:0;
+  span{
+    font-size:35/@base;
+    color:#fff;
+  }
+  span:first-child{
+    font-size:32/@base;
+    margin-left: @margin-left;
+  }
+  a{
+    position:absolute;
+    width:250/@base;
+    line-height:@height;
+    background-color:#78b25d;
+    right:0;
+    text-decoration: none;
+    font-size:35/@base;
+    color:#fff;
+    text-align:center;
+  }
+}
+
+/* 优惠信息 */
+.account-discount{
+  background-color: #fafbd9;
+  line-height: 60/@base;
+  border-top:1px solid #e0e0e0;
+  position: relative;
+  z-index: 1;
+  margin-bottom:-1px;
+  font-size:25/@base;
+  padding-left: @margin-left;
+  span{
+    color:#707056;
+  }
+  span:first-child{
+    color:#de480d;
+    margin-right: 20/@base;
+  }
+}
+
+/* 订单商品 */
+.account-pits{
+  position:relative;
+  height:170/@base;
+  border-top:1px solid #e0e0e0;
+  border-bottom:1px solid #e0e0e0;
+  background-color:#fff;
+  margin-bottom: 10/@base;
+}
+.account-pit{
+  padding:24/@base 0;
+  width:665/@base;
+  position:relative;
+  height:122/@base;
+}
+.account-pit-img{
+  width:122/@base;
+  height:122/@base;
+  margin-left:@margin-left;
+  margin-right:20/@base;
+  float: left;
+}
+.account-pit-title{
+  font-size:30/@base;
+  line-height: 55/@base;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.account-pit-price{
+  font-size:24/@base;
+  color:#f75218;
+  display: block;
+  line-height: 55/@base;
+}
+.account-pit-count{
+  position:absolute;
+  font-size:24/@base;
+  right:0;
+  bottom:40/@base;
+  color:#c5c5c5;
+}
+.account-pit-imgs{
+  height:122/@base;
+  line-height: 122/@base;
+  vertical-align: middle;
+  margin-top:24/@base;
+  margin-left:@margin-left;
+  display: inline-block;
+  img{
+    width:122/@base;
+    height:122/@base;
+    margin-right:15/@base;
+    vertical-align: middle;
+  }
+  .account-pit-length{
+    vertical-align: middle;
+    font-size:25/@base;
+    color:#76b357;
+  }
+}
+.account-object-pit{
+  position:relative;
+  .account-pit{
+    border-bottom:1px solid #eee;
+    width:750/@base;
+    .account-pit-count{
+      right:@margin-left;
+    }
+  }
+}
+/* 订单弹出层 */
+.account-object-back-place{
+  height:130/@base;
+}
+.account-object-back{
+  position:absolute;
+  bottom:0;
+  background-color:#fff;
+  width:100%;
+  left:0;
+}
+
+
+/* 送达时间 优惠卷 */
+.account-mod{
+  position:relative;
+  height:100/@base;
+  line-height:100/@base;
+  border-bottom:1px solid #e0e0e0;
+  background-color:#fff;
+  font-size:30/@base;
+  color:#5a5a5a;
+}
+.account-mod:after{
+  content:'$';
+  height:0;
+  overflow: hidden;
+  display: block;
+  clear:both;
+}
+.account-left{
+  float:left;
+  text-align:left;
+  text-indent:@margin-left;
+}
+.account-right{
+  float:right;
+  text-align:right;
+  padding-right: @margin-left;
+}
+.account-arrive{
+  margin-right:40/@base;
+}
+.account-arrive-time{
+  padding:20/@base;
+  select{
+    padding:10/@base;
+    border:1px solid #eee;
+    border-radius:4px;
+    margin:0 20/@base 0 0;
+    font-size:20/@base;
+  }
+  select:focus{
+    outline:none;
+  }
+}
+.account-coupon{
+  margin-right:40/@base;
+  display: inline-block;
+  width:47/@base;
+  height:47/@base;
+  border-radius:50%;
+  background-color:#f85218;
+  line-height:47/@base;
+  text-align:center;
+  color:#fff;
+  margin-top:25/@base;
+  font-size:25/@base;
+}
+.account-outer{
+  border-top:1px solid #e0e0e0;
+  margin-bottom:10/@base;
+  background-color:#fff;
+}
+.account-memo{
+  height:100/@base;
+  line-height: 100/@base;
+  width:100%;
+  font-size:30/@base;
+  color:#b0b0b0;
+  text-indent:@margin-left;
+}
+.account-memo:focus{
+  outline:none;
+}
+
+/* 结算金额 */
+.account-total{
+  margin-bottom:0;
+  .account-mod{
+    border-bottom-style: none;
+    height:80/@base;
+    line-height: 80/@base;
+  }
+}
+.account-weixin{
+  display: inline-block;
+  height:62/@base;
+  width:62/@base;
+  background-image:url(./weixin.jpg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin:19/@base 19/@base 19/@base 0;
+  text-indent:0;
+  vertical-align: middle;
+}
+.account-gou{
+  display: inline-block;
+  height:62/@base;
+  width:62/@base;
+  background-image:url(./select.jpg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin:19/@base 0 19/@base 19/@base;
+  text-indent:0;
+  vertical-align: middle;
+}

@@ -1,0 +1,5 @@
+{
+  "name":"store",
+  "main":"store.js",
+  "description":"存取token"
+}

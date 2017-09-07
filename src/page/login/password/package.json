@@ -1,0 +1,5 @@
+{
+  "name":"login",
+  "main":"password.js",
+  "description":"密码登录"
+}

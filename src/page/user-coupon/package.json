@@ -1,0 +1,5 @@
+{
+  "name":"user-coupon",
+  "main":"user-coupon.js",
+  "description":"我的优惠卷"
+}

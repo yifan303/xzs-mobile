@@ -1,0 +1,31 @@
+@height:116/@base;
+.wheader-place{
+  position:relative;
+  height:@height;
+}
+.wheader{
+  position:fixed;
+  line-height: @height;
+  left:0;
+  top:0;
+  width:100%;
+  height:@height;
+  border-bottom:1px solid #f5f9f8;
+  text-align:center;
+  background-color: #fff;
+  z-index: 10;
+}
+.wheader-text{
+  font-size:33/@base;
+  color:#000;
+}
+.wheader-back{
+  position:absolute;
+  display: block;
+  width:50/@base;
+  height:50/@base;
+  top:33/@base;
+  left:43/@base;
+  background-image:url(./back.jpg);
+  background-size:cover;
+}

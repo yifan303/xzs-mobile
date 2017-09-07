@@ -1,0 +1,5 @@
+{
+  "name":"header",
+  "main":"header.js",
+  "description":"头部组件"
+}

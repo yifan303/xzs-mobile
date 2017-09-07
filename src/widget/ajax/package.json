@@ -1,0 +1,5 @@
+{
+  "name":"ajax",
+  "main":"ajax.js",
+  "description":"封装$.ajax"
+}

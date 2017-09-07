@@ -1,0 +1,87 @@
+@border:1px solid #f9f9f9;
+
+.user-list{
+  background-color: #fff;
+  border-bottom:@border;
+  margin-bottom:20/@base;
+}
+.user-item{
+  line-height:115/@base;
+  height:115/@base;
+  margin:0 20/@base;
+  padding:0 20/@base;
+  border-top:@border;
+  margin-top:-1px;
+  position:relative;
+}
+.user-text{
+  vertical-align: middle;
+  margin-left:20/@base;
+  color:#7e7e7e;
+  font-size:26/@base;
+}
+.user-href{
+  position:absolute;
+  width:33/@base;
+  height:53/@base;
+  background-image:url(./arrow.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  right:20/@base;
+  top:30/@base;
+}
+.user-input{
+  display: block;
+  line-height: 60/@base;
+  padding:25/@base 0;
+  text-indent:20/@base;
+  color:#7e7e7e;
+  width:400/@base;
+  font-size:26/@base;
+}
+.address-add{
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  margin:0;
+  padding:0;
+  background-color:#ececec;
+  z-index:9;
+}
+.address-btns{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding:0;
+  background-color:#fff;
+  padding-top: 1px;
+}
+.address-btns a{
+  display: block;
+  margin:20/@base;
+  border-radius:5px;
+  line-height: 90/@base;
+  text-align: center;
+  font-size:26/@base;
+  background-color:#fff;
+  color:#7e7e7e;
+  border:1px solid #75b557;
+}
+.address-btns a:first-child{
+  background-color:#75b557;
+  color:#fff;
+  box-shadow: 0 2px 2px rgba(0,0,0,.2);
+}
+.address-select{
+  margin:20/@base;
+}
+.address-select .user-href{
+  top:5/@base;
+}
+.address-select-item{
+  line-height:65/@base;
+  height:65/@base;
+}

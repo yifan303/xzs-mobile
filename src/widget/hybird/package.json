@@ -1,0 +1,5 @@
+{
+  "name":"hybird",
+  "main":"hybird.js",
+  "description":"链接和图片元素，点击链接到app详情页或者web详情页"
+}

@@ -1,0 +1,5 @@
+{
+  "name":"fix-modal",
+  "main":"fix-modal.js",
+  "description":"position:fixed 模态框"
+}

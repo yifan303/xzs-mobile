@@ -1,0 +1,5 @@
+{
+  "name":"pay",
+  "description":"支付界面",
+  "main":"pay.js"
+}

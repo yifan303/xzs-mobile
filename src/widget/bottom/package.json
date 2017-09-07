@@ -1,0 +1,5 @@
+{
+  "name":"bottom",
+  "main":"bottom.js",
+  "description":"底部组件"
+}

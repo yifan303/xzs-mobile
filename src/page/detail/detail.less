@@ -1,0 +1,165 @@
+@padding:0 50/@base;
+@border-bottom:1px solid #bbbfbe;
+@cart-height:115/@base;
+
+.detail-back{
+  position:absolute;
+  width:85/@base;
+  height:85/@base;
+  background-color:#77b35d;
+  border-radius:50%;
+  background-image: url(./back.png);
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-size:50% 50%;
+  top:20/@base;
+  left:20/@base;
+  z-index:10;
+}
+.detail-info{
+  margin-top:40/@base;
+}
+.detail-tag{
+  font-size:.3rem;
+  height:.6rem;
+  line-height:.6rem;
+  background-color:#f85218;
+  color:#fff;
+  border-radius:.4rem;
+  padding:0 .2rem;
+  margin-left: .3rem;
+}
+.detail-title{
+  margin:10/@base 0;
+  line-height:60/@base;
+  font-size:38/@base;
+  color:#5a5e5d;
+  padding:@padding;
+}
+.detail-subTitle{
+  height:60/@base;
+  line-height:60/@base;
+  padding:@padding;
+  font-size:25/@base;
+  color:#5a5e5d;
+}
+.detail-sale{
+  padding:@padding;
+  border-bottom:@border-bottom;
+}
+.detail-left{
+  float:left;
+  width:325/@base;
+  height:100/@base;
+  line-height: 100/@base;
+}
+.detail-right{
+  float:left;
+  width:325/@base;
+  text-align:right;
+  height:100/@base;
+  line-height: 100/@base;
+}
+.detail-price{
+  font-size:23/@base;
+}
+.detail-price-sign{
+  color:#ec4413;
+}
+.detail-price-discount{
+  font-size:40/@base;
+  color:#ec4413;
+}
+.detail-price-origin{
+  color:#515151;
+  text-decoration: line-through;
+  margin-left:20/@base;
+}
+.detail-count{
+
+}
+.detail-operation{
+  width:84/@base;
+  height:84/@base;
+  line-height: 84/@base;
+  border:1px solid #e8e8e8;
+  display: inline-block;
+  color:#ec4413;
+  text-align:center;
+  font-size:70/@base;
+  border-radius:50%;
+}
+.detail-num{
+  font-size:50/@base;
+  color:#000;
+  margin:0 20/@base;
+}
+.detail-spec{
+  padding:@padding;
+  border-bottom:@border-bottom;
+}
+.detail-text{
+  font-size:28/@base;
+}
+.detail-spec-text{
+  padding:5/@base 15/@base;
+  border:1px solid;
+  border-radius:5px;
+  color:#f94223;
+  font-size:28/@base;
+}
+.detail-frame{
+  width:10rem;
+  border-style:none;
+  height:12rem;
+}
+
+/* 底部购物车 */
+
+.detail-cart-place{
+  height:@cart-height;
+  width:10rem;
+}
+.detail-cart{
+  height:@cart-height;
+  width:10rem;
+  z-index: 10;
+  position:fixed;
+  left:0;
+  bottom:0;
+  background-color:#000;
+}
+.detail-cart-icon{
+  width:@cart-height;
+  height:@cart-height;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-position: center center;
+  background-image:url(./cart.png);
+  position:absolute;
+  left:0;
+  top:0;
+  text-decoration: none;
+  text-align:right;
+  span{
+    display: inline-block;
+    width:40/@base;
+    height:40/@base;
+    line-height: 40/@base;
+    font-size:18/@base;
+    background-color:#ec4413;
+    color:#fff;
+    text-align:center;
+    border-radius:50%;
+    margin:20/@base 10/@base 0 0;
+  }
+}
+.detail-cart-add{
+  margin-left:@cart-height;
+  height:@cart-height;
+  line-height: @cart-height;
+  background-color:#77b455;
+  text-align:center;
+  font-size:36/@base;
+  color:#fff;
+}

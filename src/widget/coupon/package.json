@@ -1,0 +1,5 @@
+{
+  "name":"coupon",
+  "main":"coupon.js",
+  "description":"优惠卷列表"
+}

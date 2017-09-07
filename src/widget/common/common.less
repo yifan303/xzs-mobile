@@ -1,0 +1,81 @@
+// reset
+html,body,p,div{
+  padding:0;
+  margin:0;
+}
+body{
+  font-size:12px;
+  background-color: #fff;
+}
+html{
+  font-family: sans-serif;
+  color: #000;
+  background: #fff;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  outline: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+input{
+  padding:0;
+  border-style:none;
+}
+input:focus{
+  outline:none;
+}
+#content{
+  padding-bottom:1px;
+  width:10rem;
+  margin: 0 auto;
+  overflow-x:hidden;
+}
+
+.toolbar{
+  position:fixed;
+  bottom:0;
+  height:1rem;
+  line-height: 1rem;
+  text-align:right;
+  width:100%;
+  z-index:100;
+  .toolbar-frash{
+    border-radius:3px 0 0 0;
+    vertical-align: middle;
+    display:inline-block;
+    width:1.5rem;
+    height:1rem;
+    line-height: 1rem;
+    background-color:#e8323e;
+    font-size:.4rem;
+    text-align:center;
+    color:#fff;
+    opacity:.5;
+  }
+}
+.clearfix{
+
+}
+.clearfix::after{
+  display:block;
+  height:0px;
+  overflow: hidden;
+  content:'$';
+  width:100%;
+  clear:both;
+}
+.text-overflow{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow:hidden;
+}
+.loading{
+  background-image:url(./bg-img.png);
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+}
+.m-banner{
+  width:10rem;
+  height:auto;
+}

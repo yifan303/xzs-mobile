@@ -1,0 +1,5 @@
+{
+  "name":"common",
+  "description":"公用代码和公用样式",
+  "main":"common.js"
+}

@@ -1,0 +1,5 @@
+{
+  "name":"account",
+  "main":"account.js",
+  "description":"结算页"
+}

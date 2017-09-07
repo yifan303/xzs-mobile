@@ -1,0 +1,26 @@
+.marquee{
+  height:60/@base;
+  background-color:#fff;
+  line-height: 60/@base;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.marquee p,.marquee a{
+  line-height: 60/@base;
+  height: 60/@base;
+  font-size:20/@base;
+  padding:0;
+  margin:0;
+  padding-left:20/@base;
+  white-space: nowrap;
+  overflow: hidden;
+  color:#000;
+  text-decoration: none;
+  display: block;
+}
+.marquee-move{
+  transition: transform .3s ease-in-out 0s;
+}
+.marquee-move-empty{
+  transition:none;
+}

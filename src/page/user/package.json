@@ -1,0 +1,5 @@
+{
+  "name":"user",
+  "main":"user.js",
+  "description":"用户信息"
+}

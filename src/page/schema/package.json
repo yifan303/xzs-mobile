@@ -1,0 +1,5 @@
+{
+  "name":"schema",
+  "main":"schema.js",
+  "description":"schema测试页"
+}
